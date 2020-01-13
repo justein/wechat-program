@@ -1,0 +1,2 @@
+<button type="primary" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="clicks" hover-class="other-button-hover"> default </button>
