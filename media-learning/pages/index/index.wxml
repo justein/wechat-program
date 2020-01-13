@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <audio poster="http://y.gtimg.cn/music/photo_new/T002R300x300M000003rsKF44GyaSk.jpg?max_age=2592000" 
+  name="此时此刻" 
+  author="许巍" 
+  src="http://60.217.253.147/amobile.music.tc.qq.com/C400003Koufi0msNkn.m4a?guid=2900487684&vkey=162DC070B4E45AD1B3EDD7D6BCD250820B68652E021E571FE36B66BEA110BF7670E5CA3A4301366E6F36D07123A497789B0FEFA937A7FF40&uin=0&fromtag=66" 
+  id="myAudio" controls loop></audio>
+
+<button type="primary" bindtap="audioPlay">播放</button>
+<button type="primary" bindtap="audioPause">暂停</button>
+<button type="primary" bindtap="audio14">设置当前播放时间为14秒</button>
+<button type="primary" bindtap="audioStart">回到开头</button>
+</view>
